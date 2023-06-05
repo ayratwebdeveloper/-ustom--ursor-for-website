@@ -16,7 +16,7 @@ window.addEventListener('scroll', () => {
 window.addEventListener('click', () => {
 	if (cursor.classList.contains('click')) {
 		cursor.classList.remove("click");
-		void cursor.offsetWidth; // Обновляем DOM
+		void cursor.offsetWidth; // Обновляем DOM? как я понял
 		cursor.classList.add("click");
 	} else {
 		cursor.classList.add("click");
